@@ -1,3 +1,6 @@
+# This module renames the Excel files to just the year of the data.
+# It is used to ensure that the files are named consistently for further processing.
+
 import os
 
 def rename_files(folder_path, dry_run = True):
